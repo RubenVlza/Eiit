@@ -1,0 +1,62 @@
+<!-- (*) assigned classes -->
+
+<ion-view view-title="{{vm.title}}">
+	<ion-content>
+        <!-- *class input-search -->
+        <!--
+==========================================
+               PRIMER LUGAR
+==========================================
+-->
+            <div class="col-xs-12 primerLugar text-center">
+                <img src="img/78.jpg" class="img-circle imgFormat animated tada" alt="primerLugar">
+                <div class="col-xs-12">
+                    <img src="/img/firtsmedal.png" class="Medal1 animated zoomInUp" alt="goldmedal">
+                    <h3 class="nombreAsesor1">{{vm.NombrePrimerLugar}} {{vm.ApellidoPrimerLugar}}</h3>
+                    <div class="text-center inicio-puntos-lista">
+                        <h1>{{vm.puntosPrimerLugar}}</h1>
+                        <p>Puntos</p>
+                    </div>
+                </div> 
+                <br>
+            </div>
+      <!--
+==========================================
+               SEGUNDO LUGAR
+==========================================
+-->             <div>
+                <img src="/img/curve-line-inicio.png" alt="" class="imgPos">
+                <div class="col-xs-6 text-center">
+                <img src="img/pp.jpeg" style="width: 50%; margin-top: 190px;" class="img-circle img-circle2" alt="segundoLugar">
+                <div class="col-xs-12">
+                    <img src="/img/secondMedal.png" class="Medal animated rubberBand" alt="">
+                    <div class="text-center inicio-puntos-lista">
+                        <h1>{{vm.puntosSegundoLugar}}</h1>
+                        <p>Puntos</p>
+                    </div>
+                </div> 
+            </div>
+      <!--
+==========================================
+               TERCER LUGAR
+==========================================
+-->
+             <div class="col-xs-6 text-center">
+                <img src="img/pp (1).jpeg" style="width: 50%; margin-top: 190px;" class="img-circle img-circle3" alt="segundoLugar">
+                <div class="col-xs-12">
+                    <img src="/img/thirdMedal.png" class="Medal animated rubberBand" alt="">
+                    <div class="text-center inicio-puntos-lista">
+                        <h1>{{vm.puntosTercerLugar}}</h1>
+                        <p>Puntos</p>
+                    </div>
+                </div> 
+            </div>
+            </div>
+      <!--
+==========================================
+            BUTTON BUSCAR ASESOR
+==========================================
+-->
+            <a class="button button-block button-dark btnBuscarAesor" ng-href="#/app/listUsers">Buscar Asesor</a>
+	</ion-content>
+</ion-view>

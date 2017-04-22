@@ -1,0 +1,93 @@
+<!-- (*) assigned classes -->
+
+<ion-view view-title="Asesores">
+	<ion-nav-buttons side="right">
+				<button class="button button-icon icon ion-ios-plus-empty" ng-click="infoApp()"></button>
+		</ion-nav-buttons>
+	<ion-content>
+        <div class="list">
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Carrera
+                </div>
+                <select [(ngModel)]="carrera">
+                    <option value="ambiental">Ing. Ambiental</option>
+                    <option value="biomedica">Ing. en Biomédica</option>
+                    <option value="geociencias">Ing. en Geociencias</option>
+                    <option value="horticultura">Ing. en Horticultura</option>
+                    <option value="mecatronica">Ing. en Mecatrónica</option>
+                    <option value="software">Ing. en Software</option>
+                    <option value="alimentos">Ing. en Tecnologia de Alimentos</option>
+                    <option value="manufactura">Ing. Industrial en Manufactura</option>
+                    <option value="administracion">Lic. en Administración de Empresas</option>
+                    <option value="agronegocios">Lic. en Agronegocios</option>
+                    <option value="comercio">Lic. en Comercio Internacional</option>
+                    <option value="contaduria">Lic. en Contaduría</option>
+                    <option value="criminologia">Lic. en Criminología</option>
+                    <option value="ecologia">Lic. en Ecología</option>
+                    <option value="enfermeria">Lic. en Enfermería</option>
+                    <option value="ingles">Lic. en Enseñanza del Inglés</option>
+                    <option value="deporte">Lic. en Entrenamiento Deportivo</option>
+                    <option value="turismo">Lic. en Administración de Empresas Turísticas</option>
+                    <option value="nutricion">Lic. en Nutrición Humana</option>            
+                <select>
+            </label>
+            <label class="item item-input item-select">
+                <div class="input-label">
+                    Materia
+                </div>
+                <select [(ngModel)]="materia">
+                    <option value="CHS30A1">Comunicación Oral y Escrita</option>
+                    <option value="CHS31A1">Aprendizaje y Gestión del Conocimiento</option>
+                    <option value="COM01A1">Tecnologías de la Información y Comunicación</option>
+                    <option value="MAT01A1">Matemáticas Básicas</option>
+                    <option value="COM07A1">Diseño de Algoritmos</option>
+                    <option value="LEX01A1">Inglés I</option>           
+                <select>
+            </label>
+        </div>
+        <!-- item-avatar with option button -->
+		<ion-list>
+			<ion-item class="item-avatar">
+				<img src="img/27.jpg">
+				<h2>Usuario1</h2>
+				<p><i class="ion-ios-book-outline"></i> Ing. en Software</p>
+                <p><i class="ion-ios-pricetags-outline"></i> materia1, materia2, materia3</p>
+                <div class="pull-right item-puntos-lista">
+                    <h1>34</h1>
+                    <p>Puntos</p>
+                </div>
+			</ion-item>
+            <ion-item class="item-avatar">
+				<img src="img/48.jpg">
+				<h2>Usuario2</h2>
+				<p><i class="ion-ios-book-outline"></i> Ing. en Software</p>
+                <p><i class="ion-ios-pricetags-outline"></i> materia1, materia2, materia3</p>
+                <div class="pull-right item-puntos-lista">
+                    <h1>23</h1>
+                    <p>Puntos</p>
+                </div>
+			</ion-item>
+            <ion-item class="item-avatar">
+				<img src="img/92.jpg">
+				<h2>Usuario3</h2>
+				<p><i class="ion-ios-book-outline"></i> Ing. en Software</p>
+                <p><i class="ion-ios-pricetags-outline"></i> materia1, materia2, materia3</p>
+                <div class="pull-right item-puntos-lista">
+                    <h1>12</h1>
+                    <p>Puntos</p>
+                </div>
+			</ion-item>
+            <ion-item class="item-avatar">
+				<img src="img/88.jpg">
+				<h2>Usuario4</h2>
+				<p><i class="ion-ios-book-outline"></i> Ing. en Software</p>
+                <p><i class="ion-ios-pricetags-outline"></i> materia1, materia2, materia3</p>
+                <div class="pull-right item-puntos-lista">
+                    <h1>9</h1>
+                    <p>Puntos</p>
+                </div>
+			</ion-item>
+		</ion-list>
+	</ion-content>
+</ion-view>

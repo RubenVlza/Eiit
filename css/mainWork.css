@@ -1,0 +1,29 @@
+/*
+-----------------------------
+            Inicio
+-----------------------------
+*/
+.alignCenter{
+ text-align: center;
+}
+
+.headerFirstPlace{
+background-color: #ecf0f1 !important;
+font-size: 20px;
+}
+.star1{
+color: goldenrod;
+font-size: 30px;
+}
+.star1:hover{
+transition: 1s;
+color: orangered;
+}
+.votos{
+    color: #2c3e50;
+    font-size: 20px;
+}
+.ContactUser{
+color: #2c3e50;
+font-size: 30px;
+}

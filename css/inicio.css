@@ -1,0 +1,136 @@
+/*
+==========================================
+                  GENERAL
+==========================================
+*/
+.imgFormat{
+    width: 50%;
+    margin-top: 20px;
+}
+.tableIcons{
+font-size: 20px !important;
+color: black;
+opacity: 0.8;
+}
+.tableIcons:hover{
+    color: #8e44ad;
+    opacity: 0.9;
+}
+
+table{
+    margin-top: -10px!important;
+}
+
+/*
+==========================================
+               PRIMER LUGAR
+==========================================
+*/
+.primerLugar{
+    background-image: url('/img/giphy.gif');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    max-height: 160px;
+    margin-top: -10px !important;   
+}
+
+.Medal1{
+    text-align: center;
+    width: 20%;
+    margin-left: 120px;
+    margin-top: -70px;
+}
+.Medal{
+    text-align: center;
+    width: 30%;
+    margin-left: 50px;
+    margin-top: -55px;
+}
+.nombreAsesor1{
+    margin-top: -10px;
+    font-family: Comic Sans MS;
+    font-size: 19px;
+    color: #7f8c8d;
+}
+.nombreAsesor{
+    margin-top: -10px;
+    font-family: Comic Sans MS;
+    font-size: 16px;
+    color: #7f8c8d;
+}
+.nombreCarrera{
+    font-size: 17px;
+    font-family: tahoma; 
+}
+.votar{
+    font-size: 15px;
+    color: black;
+    opacity: 0.8;
+}
+.perfil{
+    font-size: 15px;
+    color: black;
+    opacity: 0.8;
+    padding-left: 4px;
+}
+
+
+/*
+==========================================
+               SEGUNDO LUGAR
+==========================================
+*/
+.nombreCarrera2{
+    font-size: 15px;
+    font-family: tahoma; 
+}
+
+.img-circle2{
+    border: 1px solid #9b59b6!important;
+    width: 50%; 
+    margin-top: 160px;
+    padding: 2px;
+}
+/*
+==========================================
+               TERCER LUGAR
+==========================================
+*/
+.img-circle3{
+    border: 1px solid #9b59b6!important;
+    width: 50%; 
+    margin-top: 160px;
+    padding: 2px;
+}
+
+/*
+==========================================
+           BUTTON BUSCAR ASESOR
+==========================================
+*/
+.btnBuscarAesor{
+    top: 10px !important;
+    margin-left: 5% !important;
+    margin-right: 5% !important;
+    background-color: #7f8c8d !important;
+    border: none !important;
+}
+.inicio-puntos-lista {
+	margin-top: -5px;
+}
+.inicio-puntos-lista p {
+	margin-top: -8px;
+    font-size: 18px;
+}
+.inicio-puntos-lista h1 {
+  color: #9b59b6;
+  text-align: center;
+}
+.imgPos {
+    position: absolute;
+    left: 0;
+    margin-top: 85px;
+    z-index: -1;
+    width: 100%;
+
+}
